@@ -1,0 +1,496 @@
+/*
+Custom CSS 
+*/
+
+/* =============================================================================
+   FONTS
+   ========================================================================== */
+@font-face {
+  font-family: 'yleeMortalHeart-ImmortalMemoryforMac';
+  src: url('../fonts/ylee/yleeMortalHeart-ImmortalMemoryforMac.eot?#iefix') format('embedded-opentype'),  
+  url('../fonts/ylee/yleeMortalHeart-ImmortalMemoryforMac.otf')  format('opentype'),
+  url('../fonts/ylee/yleeMortalHeart-ImmortalMemoryforMac.svg#yleeMortalHeart-ImmortalMemoryforMac') format('svg'),
+  url('../fonts/ylee/yleeMortalHeart-ImmortalMemoryforMac.ttf')  format('truetype'),
+  url('../fonts/ylee/yleeMortalHeart-ImmortalMemoryforMac.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeosansLight';
+  src: url('../fonts/geosans/GeosansLight.eot?#iefix') format('embedded-opentype'),  
+  url('../fonts/geosans/GeosansLight.woff') format('woff'), 
+  url('../fonts/geosans/GeosansLight.ttf')  format('truetype'), 
+  url('../fonts/geosans/GeosansLight.svg#GeosansLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* =============================================================================
+   Site Styles
+   ========================================================================== */
+html{
+	background: #0d0d0d;
+}
+
+
+h1.title{
+	 font-family: 'yleeMortalHeart-ImmortalMemoryforMac',Brush Script MT,cursive;
+	 color: #FFF;
+	 font-size: 6em;
+	 text-align: right;
+	 margin: 50px 25px 0 0;
+}   
+.header{
+	background: url(../images/gabe-bg.jpg) center top no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	height: 930px;
+	overflow: hidden;
+}
+
+.section{
+	background: #FFF;
+	height: auto;
+}
+
+.spacer{
+	padding: 40px 0 100px 0;
+}
+
+.vid{
+	margin: 25px 0 0 0;
+	width: 100%;
+	height: 300px;
+}
+
+p{
+	font-size: 1.5em;
+	font-family: 'GeosansLight';
+	letter-spacing: .06em;
+}
+	p.sub-title{
+		color: #FFF;
+		text-align: right;
+		clear: right;
+		margin: 0;
+		font-size: 1.3em;
+	}
+	.white-text{
+		color: #FFF;
+	}
+	p.vid-title{
+		font-size: 1em;
+		margin: 0;
+	}
+	
+h1{
+	font-family: 'GeosansLight';
+	font-size: 4em;
+} 
+
+.sec-spacing{
+	margin-top: 183px;
+	width: 100%;
+} 
+
+a.success-link{
+	color: #FFF;
+} 
+
+.success-msg{
+	text-align: center;
+	font-weight: bold;
+	margin: 100px 5px 0 5px;
+	position: relative;
+	z-index: 1;
+	font-size: 2em;
+
+}
+
+.success-bg{
+	background: #000;
+	opacity: .6;
+	height: 500px;
+	width: 100%;
+	margin-top: -350px;
+}
+
+a.twitter-button {
+	background: #5ea9dd url("../images/twitter-icon.png") no-repeat left 10px center;
+	color: #FFF;
+	font-family: 'GeosansLight';
+	font-size: .8em;
+	font-weight: bold;
+	padding: 15px 40px 15px 55px;
+	text-decoration: none;
+	border-radius: 20px 0 20px 0;
+	-webkit-border-radius: 20px 0 20px 0;
+	-moz-border-radius: 20px 0 20px 0;
+	-o-border-radius: 20px 0 20px 0;
+	transition: background .7s ease;
+	-webkit-transition: background  .7s ease;
+	-moz-transition: background  .7s ease;
+	-o-transition: background  .7s ease;
+}
+	a.twitter-button:hover {
+		background: #5ea9dd url("../images/twitter-icon.png") no-repeat right 5px center;
+	}
+
+a.youtube-button {
+	background: #b62025 url("../images/youtube-icon.png") no-repeat left 10px center;
+	color: #FFF;
+	font-family: 'GeosansLight';
+	font-size: .8em;
+	font-weight: bold;
+	padding: 15px 40px 15px 55px;
+	text-decoration: none;
+	border-radius: 0 20px 0 20px;
+	-webkit-border-radius: 0 20px 0 20px;
+	-moz-border-radius: 0 20px 0 20px;
+	-o-border-radius: 0 20px 0 20px;
+	transition: background .7s ease;
+	-webkit-transition: background  .7s ease;
+	-moz-transition: background  .7s ease;
+	-o-transition: background  .7s ease;
+}
+	a.youtube-button:hover{
+		background: #b62025 url("../images/youtube-icon.png") no-repeat right center;
+	}
+
+.button-spacing{
+	margin-top: 35px;
+}
+
+footer{
+	background: url("../images/footer-bg.jpg") bottom center no-repeat;
+	background-image: cover;
+	padding-bottom: 80px;
+}
+	footer img{
+		margin-top: 40px;
+		width: 100%;
+	}
+.copyright p{
+	text-transform: uppercase;
+	font-size: .7em;
+	text-align: center;
+}
+
+ul.list a{
+	text-decoration: none;
+	font-family: 'GeosansLight';
+	color: #6e6e6e;
+	transition: color .7s ease;
+	-webkit-transition: color .7s ease;
+	-moz-transition: color .7s ease;
+	-o-transition: color .7s ease;
+}
+	ul.list a:hover{
+		color: #a6a6a6;
+		text-decoration: underline;
+	}
+	ul.list li{
+		margin-bottom: 1em;
+		font-size: 1.2em;
+	}
+	ul.list{
+		list-style-type: none;
+	}
+	
+/* =============================================================================
+   Navigation Menu
+   ========================================================================== */
+.menu {
+  background: #000;
+  left: -285px;
+  height: 100%;
+  position: fixed;
+  width: 285px;
+  z-index: 5;
+  opacity: .95;
+}
+
+.menu ul {
+  border-top: 2px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+.menu li {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+
+.menu li img{
+	height: 45px;
+	width: 45px;
+}
+ 
+a.nav-hl  {
+  color: #D4D4D4;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-left: 20px;
+  display: block;
+}
+
+a.social-icon{
+	  padding-left: 40px;
+}
+	a.nav-hl:hover{
+		background: #4D4D4D;
+		color: #B0B0B0;
+	}
+ 
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+ 
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: fixed;
+}
+	.icon-menu p{
+		color: #e2e2e2;
+	}
+/* =============================================================================
+   Contact Form
+   ========================================================================== */
+#contact_form {
+    text-shadow:0 1px 0 #FFF;
+	margin-top: 40px;
+}
+ 
+#ff label {
+    cursor:pointer;
+    margin:4px 0;
+    color:#ed7700;
+    display:block;
+    font-weight:800;
+}
+ 
+input {
+	font-family: 'GeosansLight';
+    display:block;
+    width:90%;
+    color:#000;
+    border:1px solid #FFF;
+	padding: 10px;
+    margin-bottom:20px;
+	font-size: 1.3em;
+}
+
+textarea{
+	font-family: 'GeosansLight';
+    display:block;
+    width:88%;
+    color:#000;
+    border:1px solid #5f5f5f;
+	padding: 15px;
+    margin-bottom:20px;
+	font-size: 1.3em;
+}
+
+.sendButton {
+    cursor:pointer;
+    background-color: #f0a31d;
+    color:#ffffff;
+    font-family: 'GeosansLight';
+    font-size: 1.2em;
+    width: 50%;
+    font-weight: bold;
+	border: 1px solid #f0a31d;
+	transition: background-color .7s ease;
+	-webkit-transition: background-color  .7s ease;
+	-moz-transition: background-color  .7s ease;
+	-o-transition: background-color  .7s ease;
+}
+.sendButton:hover {
+    background-color:#986712;
+}
+
+
+/*------------------------------------------------------
+Label Icons
+---------------------------------------------------------*/
+#name{
+	background: #FFF url(../images/user.png) right 10px center  no-repeat;
+}
+#email{
+	background: #FFF url(../images/email.png) right 10px center  no-repeat;
+}
+#school{
+	background: #FFF url(../images/field.png) right 10px center  no-repeat;
+}
+#phone{
+	background: #FFF url(../images/phone.png) right 10px center  no-repeat;
+}      
+   
+
+/* =============================================================================
+   Media Queries
+   ========================================================================== */
+
+/* Tablet Portrait size to Base 996px */
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+	.vid{
+		margin-top: 20px;
+		height: 230px;
+	}
+}
+
+/* All Mobile Sizes */
+@media only screen and (max-width: 767px) {
+	.header{
+		height: 550px;
+	}
+	
+	.vid{
+		margin-top: 30px;
+		height: 230px;
+	}
+	
+	h1.title{
+		text-align: right;
+		margin: 150px 0 0 0;
+	}
+	
+	p.sub-title{
+		text-align: right;
+		font-size: 2em;
+	}
+	
+	.sec-spacing{
+		margin-top: 50px;
+	}
+	
+}
+
+/* Mobile Landscape Size to Tablet Portrait */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	a.youtube-button {
+		background: #b62025 url("../images/youtube-icon.png") no-repeat left 10px center;
+		font-family: 'GeosansLight';
+		padding: 20px 80px;
+		border-radius: 0;	
+	}
+	
+	a.twitter-button {
+		background: #5ea9dd url("../images/twitter-icon.png") no-repeat left 10px center;;
+		font-family: 'GeosansLight';
+		padding: 20px 80px;
+		border-radius: 0;	
+	}
+	
+	.button-spacing{
+			margin-top: 50px;
+			text-align: center;
+		}
+		
+		
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size */
+@media only screen and (max-width: 479px) {
+	h1{
+		font-size: 2.5em;
+	}
+	
+	p{
+		font-size: 1.2em;
+	}
+		p.vid-title{
+			font-size: .78em;
+		}
+	ul.list li{
+		font-size: 1em;
+	}
+	
+	.vid{
+		height: 160px;
+	}
+	h1.title{
+		font-size: 3.3em;
+		float: right;
+		margin-top: 150px;
+	}
+	p.sub-title{	
+		font-size: 1.8em;
+		text-align: right;
+	} 
+	
+	.sendButton {
+		width: 85%;
+	}
+	
+	a.youtube-button {
+		background: #b62025;
+		font-family: 'GeosansLight';
+		padding: 15px 25px;
+		border-radius: 0;	
+	}
+	
+	a.twitter-button {
+		background: #5ea9dd;
+		font-family: 'GeosansLight';
+		padding: 15px 25px;
+		border-radius: 0;	
+	}
+	
+	.button-spacing{
+		text-align: center;
+	}
+		
+	
+}
+
+@media only screen and (max-width: 320px) {
+	.container{ /*Fixes the problem of having side scrolling with small screens*/
+		width: 100%;
+	}
+	input {
+		width: 85%;
+		font-size: 1em;
+	}
+	
+	textarea {
+		width: 85%;
+		font-size: 1em;
+	}
+	
+	.sendButton {
+		width: 85%;
+	}
+	
+}
+
+/* =============================================================================
+   Font-Face
+   ========================================================================== */
+/* This is the proper syntax for an @font-face file
+
+/* @font-face {
+font-family: 'FontName';
+src: url('../fonts/FontName.eot');
+src: url('../fonts/FontName.eot?iefix') format('embedded-opentype'),
+url('../fonts/FontName.woff') format('woff'),
+url('../fonts/FontName.ttf') format('truetype'),
+url('../fonts/FontName.svg#FontName') format('svg');
+font-weight: normal;
+font-style: normal; }
+*/
